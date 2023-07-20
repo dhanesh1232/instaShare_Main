@@ -1,0 +1,103 @@
+.post-view-display-user {
+  width: 100%;
+  margin: 0;
+  height: 834px;
+  border-radius: 0px 0px 4px 4px;
+  border: 1px solid #dbdbdb;
+  background: #fff;
+  margin-bottom: 25px;
+  padding-top: 10px;
+}
+.nav-link-user {
+  height: 60x;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  color: #262626;
+  gap: 5px;
+}
+.profile-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 54px;
+  width: 54px;
+  background: linear-gradient(#e20337, #c60188, #7700c3);
+  border-radius: 50%;
+}
+.profile-pic {
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.user-name {
+  font-size: 18px;
+  font-weight: 500;
+}
+.post-image {
+  margin-top: 15px;
+  width: 100%;
+  height: 560px;
+  flex-shrink: 0;
+}
+.likes-and-comments-view {
+  padding-left: 15px;
+}
+.like-line-button {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-weight: 400;
+}
+.like-btn {
+  display: contents;
+  height: 2rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.likes {
+  padding: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+.caption {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+.list-comments {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.list-comments .cm-li {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.list-comments .cm-li p {
+  padding: 0;
+  margin: 0;
+}
+.cm-li .name {
+  font-weight: 500;
+}
+.posted-at {
+  color: #989898;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+@media screen and (max-width: 768px) {
+  .post-view-display-user {
+    height: 650px;
+  }
+  .post-image {
+    height: 350px;
+  }
+}

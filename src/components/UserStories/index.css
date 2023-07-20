@@ -1,0 +1,80 @@
+.story-failure-view {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.story-failure-view button {
+  width: 7rem;
+  height: 2rem;
+  background: #7094ef;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.main-container {
+  display: flex;
+  width: 80%;
+}
+
+.slick-container {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.logo-image {
+  margin: 0px 10px;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.slick-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.story-name {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1200px) {
+  .main-container {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .main-container {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-container {
+    width: 90%;
+    padding: 0;
+  }
+  .logo-image {
+    height: 50px;
+    width: 50px;
+  }
+  .story-name {
+    font-size: 14px;
+  }
+}
+/* You can change the CSS color to style the Next and 
+Previous Arrow buttons according to your project */
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+.story-loader {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

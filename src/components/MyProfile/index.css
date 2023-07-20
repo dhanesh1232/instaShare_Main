@@ -1,0 +1,267 @@
+.profile-main-container {
+  width: 100%;
+  min-height: 85vh;
+  display: flex;
+  justify-content: center;
+}
+.view-profile {
+  width: 80%;
+}
+.loading-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow-x: hidden;
+}
+.failure-view-profile {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.profile-failure-view {
+  width: 450px;
+  height: 250px;
+}
+.failure-para-profile {
+  color: #262626;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+}
+.retry-btn {
+  width: 7rem;
+  height: 2rem;
+  background: #4094ef;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.profile-page-container {
+  width: 100%;
+  margin-top: 15px;
+}
+.header-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+.user-profile {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.profile-details {
+  padding: 0;
+  margin: 0;
+  height: 120px;
+}
+.user-name-profile {
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+  font-weight: normal;
+}
+.followers-data {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  gap: 10px;
+}
+.followers-data div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.followers-data div p {
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+}
+.user-id {
+  padding: 0;
+  margin: 5px;
+}
+.user-bio {
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+.head-name {
+  display: none;
+}
+.bio {
+  display: none;
+}
+.posts-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.posts-list li {
+  border: 2px solid #c7c7cc;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.posts-list li img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.post-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+}
+.post-icon h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+.post-list-view {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 15px;
+}
+.post-list-view li img {
+  height: 150px;
+  width: 150px;
+}
+.no-post {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.no-post div {
+  border: 2px solid #000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.no-post p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #262626;
+}
+@media screen and (max-width: 1000px) {
+  .view-profile {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .view-profile {
+    width: 100%;
+  }
+  .head-name {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    padding-left: 50px;
+  }
+  .failure-para-profile {
+    font-size: 20px;
+    text-align: center;
+  }
+  .header-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+  }
+
+  .profile-details {
+    padding-top: 30px;
+  }
+  .user-name-profile {
+    display: none;
+  }
+  .profile-failure-view {
+    width: 300px;
+    height: 120px;
+  }
+  .user-id {
+    display: none;
+  }
+  .user-bio {
+    display: none;
+  }
+  .followers-data div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  .followers-data div p:nth-child(1) {
+    padding: 0;
+    margin: 0;
+  }
+  .followers-data div p:nth-child(2) {
+    padding: 0;
+    margin: 0;
+  }
+  .bio {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+  }
+  .bio p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+  }
+  .posts-list {
+    padding-left: 20px;
+  }
+  .post-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 20px;
+  }
+  .post-list-view {
+    padding-left: 10px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 15px;
+  }
+  .post-list-view li img {
+    height: 100px;
+    width: 100px;
+    flex-shrink: 0;
+  }
+}
